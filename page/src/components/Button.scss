@@ -1,0 +1,47 @@
+.button {
+    height: 60px;
+    font-family: "CeraRoundPro";
+    color: #fff;
+    background: none;
+    border-radius: 40px;
+    font-size: 1em;
+    outline: none;
+    cursor: pointer;
+    &.button_theme_transparent {
+        border: 2px solid #5489c3;
+        font-weight: bold;
+        &:hover {
+            background-color: #5489c3;
+        }
+    }
+    &.button_size_s {
+        $width: 180px;
+        width: 180px;
+        padding: 20px 30px;
+        font-size: 1.025em;
+        transition: all 0.3s linear;
+        &:hover {
+            width: $width + 80px;
+            margin-top: 12px;
+        }
+    }
+    &.button_size_m {
+        $width: 200px;
+        padding: 20px 35px;
+        transition: all 0.3s linear;
+        &.hovered {
+            &:hover {
+                width: $width + 25px;
+            }
+        }
+    }
+    &.button_theme_color {
+        background-color: #e70067;
+        border: none;
+        &.hovered {
+            &:hover {
+                background-color: #c9005a;
+            }
+        }
+    }
+}

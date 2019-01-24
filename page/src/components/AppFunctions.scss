@@ -1,0 +1,12 @@
+.app-functions {
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+    .app-functions__wrapper {
+        min-width: 1920px;
+        height: 792px;
+        background-color: #f1f3fb;
+        border-radius: 450% / 100% 100% 0% 0%;
+    }
+}

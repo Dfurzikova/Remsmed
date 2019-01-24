@@ -1,0 +1,24 @@
+.greeting {
+    text-align: center;
+    color: #fff;
+    .greeting__title {
+        line-height: 55px;
+        font: {
+            family: 'CeraRoundPro';
+            weight: normal;
+            size: 2.25em;
+        }
+    }
+    .greeting__subtitle {
+        font: {
+            family: 'CeraRoundPro';
+            weight: normal;
+            size: 1.53em;
+        }
+        line-height: 36px;
+        padding-top: 10px;
+    }
+    .greeting__button {
+        margin-top: 25px;
+    }
+}

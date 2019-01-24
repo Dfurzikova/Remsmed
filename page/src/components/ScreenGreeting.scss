@@ -1,0 +1,19 @@
+.screen-greeting {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    .screen-greeting__content {
+        display: flex;
+        justify-content: center;
+        min-width: 1920px;
+        height: 751px;
+        border-radius: 450% / 0% 0% 100% 100%;
+        background-image: url('../assets/header-image_1.jpg');
+        z-index: 2;
+    }
+    .screen-greeting__greeting {
+        position: absolute;
+        top: 158px;
+        ;
+    }
+}
