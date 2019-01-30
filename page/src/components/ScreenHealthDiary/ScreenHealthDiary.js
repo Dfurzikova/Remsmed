@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 import './ScreenHealthDiary.scss'
 import Button from '../Button/Button'
+import Section from '../Section/Section'
 
 class ScreenHealthDiary extends Component {
     render() {
         return (
-            <div className="health-diary">
+            <Section id="health-diary">
+
                 <div className="health-diary__background">
                     <div className="health-diary__content">
                         <div className="health-diary__mobile-image"> </div>
@@ -23,7 +25,7 @@ class ScreenHealthDiary extends Component {
                     </div>
                     <div className="health-diary__graph"></div>
                 </div>
-            </div>
+            </Section>
         )
     }
 }

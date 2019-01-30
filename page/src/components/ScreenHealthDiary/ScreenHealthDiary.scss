@@ -1,16 +1,13 @@
-.health-diary {
-    display: flex;
-    justify-content: center;
-    margin-top: -22px;
-    position: relative;
     .health-diary__background {
         min-width: 1920px;
         height: 800px;
         background-image: url('../../assets/background-lines.jpg');
         display: flex;
         justify-content: center;
+        margin-top: -20px;
     }
     .health-diary__content {
+        margin-top: -22px;
         width: 1160px;
         margin-top: 22px;
         display: flex;
@@ -41,7 +38,7 @@
         }
     }
     .health-diary__health-diary-information {
-        margin-top: 217px;
+        margin-top: 210px;
         margin-left: 98px;
     }
     .health-diary__graph {
@@ -53,7 +50,7 @@
         width: 492px;
         height: 362px;
     }
-}
+
 
 .health-diary-information {
     color: #60759d;
@@ -61,7 +58,6 @@
         font-size: 2.28em;
     }
     .health-diary-information__subtitle {
-        padding-top: 4px;
         padding-left: 2px;
         font-weight: bold;
         font-size: 1.01em;
