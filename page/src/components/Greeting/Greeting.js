@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Greeting.scss'
-import Button from './Button'
+import Button from '../Button/Button'
 
 class Greeting extends Component {
 

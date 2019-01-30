@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import './Header.scss'
-import '../fonts/fonts.scss'
-import logo from '../assets/header-logo.png'
-import Menu from './Menu'
+import '../../fonts/fonts.scss'
+import logo from '../../assets/header-logo.png'
+import Menu from '../Menu/Menu'
 
 class Header extends Component {
     render() {

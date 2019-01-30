@@ -6,7 +6,7 @@
     .health-diary__background {
         min-width: 1920px;
         height: 800px;
-        background-image: url('../assets/background-lines.jpg');
+        background-image: url('../../assets/background-lines.jpg');
         display: flex;
         justify-content: center;
     }
@@ -34,7 +34,7 @@
             content: '';
             width: 278px;
             height: 602px;
-            background-image: url('../assets/mob.png');
+            background-image: url('../../assets/mob.png');
             background-repeat: no-repeat;
             display: block;
             position: absolute;
@@ -48,7 +48,7 @@
         position: absolute;
         bottom: -150px;
         right: 92px;
-        background-image: url('../assets/graph.png');
+        background-image: url('../../assets/graph.png');
         background-repeat: no-repeat;
         width: 492px;
         height: 362px;

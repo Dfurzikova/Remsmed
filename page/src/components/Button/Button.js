@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Button.scss'
-import '../fonts/fonts.scss'
+import '../../fonts/fonts.scss'
 
 class Button extends Component {
 
