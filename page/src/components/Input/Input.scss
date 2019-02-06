@@ -1,0 +1,14 @@
+.input {
+    height: 58px;
+    width: 340px;
+    border-radius: 40px;
+    outline: none;
+    color: #a8b2bf;
+    padding-left: 20px;
+    font-size: 0.9em;
+    &.input_theme_transparent {
+        border: 1px solid #4f699b;
+        background: none;
+
+    }
+}

@@ -5,6 +5,9 @@ import ScreenGreeting from './ScreenGreeting/ScreenGreeting'
 import ScreenHealthDiary from './ScreenHealthDiary/ScreenHealthDiary'
 import AppFunctions from './AppFunctions/AppFunctions'
 import ScreenPersonalDiary from './ScreenPersonalDiary/ScreenPersonalDiary'
+import ScreenSpecialists from './ScreenSpecialists/ScreenSpecialists'
+import ScreenAccess from './ScreenAccess/ScreenAccess'
+import Footer from './Footer/Footer'
 
 
 const globalData = {
@@ -47,6 +50,13 @@ const globalData = {
             title: 'Напоминание о важном',
             text: 'Получайте рекомендации, созданные специально для вас. Система, персонально настроенная под ваши требования, автоматически напомнит о необходимости выполнить рекомендации медицинского специалиста: принять препарат или выполнить измерения.'
         }
+    ],
+    specialists: [
+        {text: 'Дистанционный контроль состояния здоровья ваших пациентов'},
+        {text: 'Наблюдение за динамикой изменения основных медицинских показателей '},
+        {text: 'Наличие алгоритмов автоматического анализа поступающей информации'},
+        {text: 'Индивидуальная система уведомлений об изменении состояния каждого пациента'},
+        {text: 'Дополнительный сервис коммуникации, позволяющий активно вовлекать пациента в процесс профилактики, лечения и реабилитации.'}
     ]
 };
 
@@ -58,6 +68,10 @@ class App extends Component {
                 <ScreenHealthDiary />
                 <AppFunctions functions={globalData.appFunctions} />
                 <ScreenPersonalDiary reasons={globalData.personalDiaryReasons}/>
+                <ScreenSpecialists  specialists={globalData.specialists}/>
+                <ScreenAccess />
+                <Footer />
+
             </div>
         );
     }
