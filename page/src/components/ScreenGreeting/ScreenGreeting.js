@@ -9,7 +9,7 @@ import Section from '../Section/Section'
 class ScreenGreeting extends Component {
     render() {
         return (
-            <Section id="screen-greeting">
+            <Section id="screen-greeting" className="screen-greeting">
 
                 <div className="screen-greeting__content">
                     <Header />

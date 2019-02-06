@@ -15,7 +15,7 @@ class AppFunctions extends Component {
         );
 
         return (
-            <Section id="app-functions">
+            <Section id="app-functions" className="app-functions">
                 <div className="app-functions__content">
                     <h1 className="app-functions__title">Функции приложения</h1>
                     <div className="app-functions__functions functions">

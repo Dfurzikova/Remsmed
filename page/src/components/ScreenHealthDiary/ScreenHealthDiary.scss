@@ -1,3 +1,4 @@
+.health-diary {
     .health-diary__background {
         min-width: 1920px;
         height: 800px;
@@ -50,38 +51,37 @@
         width: 492px;
         height: 362px;
     }
-
-
-.health-diary-information {
-    color: #60759d;
-    .health-diary-information__title {
-        font-size: 2.28em;
-    }
-    .health-diary-information__subtitle {
-        padding-left: 2px;
-        font-weight: bold;
-        font-size: 1.01em;
-    }
-    .health-diary-information__list {
-        padding: 0;
-        padding-top: 5px;
-        margin-left: 17px;
-        font-weight: bold;
-    }
-    .health-diary-information__list>li {
-        list-style-type: none;
-        margin-bottom: 14px;
-        line-height: 25px;
-        font-size: 1.01em;
-        &:before {
-            content: "•";
-            color: #16afe0;
-            margin-left: -15px;
-            position: absolute;
+    .health-diary-information {
+        color: #60759d;
+        .health-diary-information__title {
+            font-size: 2.28em;
         }
-    }
-    .health-diary-information__button {
-        margin-top: 19px;
-        margin-left: 3px;
+        .health-diary-information__subtitle {
+            padding-left: 2px;
+            font-weight: bold;
+            font-size: 1.01em;
+        }
+        .health-diary-information__list {
+            padding: 0;
+            padding-top: 5px;
+            margin-left: 17px;
+            font-weight: bold;
+        }
+        .health-diary-information__list>li {
+            list-style-type: none;
+            margin-bottom: 14px;
+            line-height: 25px;
+            font-size: 1.01em;
+            &:before {
+                content: "•";
+                color: #16afe0;
+                margin-left: -15px;
+                position: absolute;
+            }
+        }
+        .health-diary-information__button {
+            margin-top: 19px;
+            margin-left: 3px;
+        }
     }
 }

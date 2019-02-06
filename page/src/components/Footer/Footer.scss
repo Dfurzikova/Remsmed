@@ -4,14 +4,12 @@
     justify-content: center;
     flex-wrap: wrap;
     background-color: #39649d;
-
     .footer__content {
         width: 1160px;
         padding-top: 61px;
         position: relative;
         border-bottom: 1px solid #335b91;
         padding-bottom: 55px;
-
         .footer__logo {
             width: 160px;
             height: 17px;
@@ -26,12 +24,12 @@
         font-size: 0.875em;
     }
 }
+
 .footer-menu {
     display: inline-block;
     margin: -10px 0 0 0;
     position: absolute;
     right: 0;
-
     .footer-menu__item {
         display: inline-block;
         margin-left: 73px;
@@ -40,6 +38,7 @@
         color: white;
     }
 }
-.text_color_pink{
+
+.text_color_pink {
     color: #e70067;
 }

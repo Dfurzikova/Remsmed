@@ -6,7 +6,7 @@ import Section from '../Section/Section'
 class ScreenHealthDiary extends Component {
     render() {
         return (
-            <Section id="health-diary">
+            <Section id="health-diary" className="health-diary">
 
                 <div className="health-diary__background">
                     <div className="health-diary__content">

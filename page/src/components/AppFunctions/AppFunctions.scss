@@ -1,50 +1,52 @@
-.app-functions__content {
-    min-width: 1920px;
-    height: 792px;
-    background-color: #f1f3fb;
-    border-radius: 450% / 100% 100% 0% 0%;
-    margin-top: 100px; // display: flex;
-    // justify-content: center;
-    .app-functions__title {
-        color: #60759d;
-        font-size: 2.275em;
-        padding-top: 130px;
-        text-align: center
-    }
-    .app-functions__functions {
-        padding-top: 27px;
-    }
-    .functions {
-        width: 1160px;
-        height: 100px;
-        margin: 0 auto;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: auto;
-        grid-row-gap: 73px;
-        grid-column-gap: 40px;
-        justify-items: center;
-        .functions__logo {
-            width: 80px;
-            height: 80px;
-            border: 1px solid #bae2f4;
-            border-radius: 50%;
+.app-functions {
+    .app-functions__content {
+        min-width: 1920px;
+        height: 792px;
+        background-color: #f1f3fb;
+        border-radius: 450% / 100% 100% 0% 0%;
+        margin-top: 100px; // display: flex;
+        // justify-content: center;
+        .app-functions__title {
+            color: #60759d;
+            font-size: 2.275em;
+            padding-top: 130px;
+            text-align: center
+        }
+        .app-functions__functions {
+            padding-top: 27px;
+        }
+        .functions {
+            width: 1160px;
+            height: 100px;
             margin: 0 auto;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        .functions_icon {
-            width: 40px;
-            height: 40px;
-        }
-        .functions__text {
-            text-align: center;
-            font-weight: bold;
-            color: #666699;
-            padding-top: 17px;
-            line-height: 25px;
-            max-width: 224px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: auto;
+            grid-row-gap: 73px;
+            grid-column-gap: 40px;
+            justify-items: center;
+            .functions__logo {
+                width: 80px;
+                height: 80px;
+                border: 1px solid #bae2f4;
+                border-radius: 50%;
+                margin: 0 auto;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .functions_icon {
+                width: 40px;
+                height: 40px;
+            }
+            .functions__text {
+                text-align: center;
+                font-weight: bold;
+                color: #666699;
+                padding-top: 17px;
+                line-height: 25px;
+                max-width: 224px;
+            }
         }
     }
 }

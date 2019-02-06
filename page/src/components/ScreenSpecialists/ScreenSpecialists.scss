@@ -1,45 +1,39 @@
-.specialists__content {
-    height: 640px;
-    background-color: #f1f4fc;
-    width: 100%;
-    display: flex;
-
-    .specialists__title {
-        color: #60759d;
-        font-size: 2.25em
-    }
-    .specialists__list {
-        padding-left: 17px;
-    }
-
-    .specialists__list > li{
-        list-style-type: none;
-        margin-bottom: 14px;
-        line-height: 26px;
-        font-size: 1.01em;
-        color: #60759d;
-        max-width: 570px;
-        &:before {
-            content: "•";
-            color: #16afe0;
-            margin-left: -15px;
-            position: absolute;
+.specialists {
+    .specialists__content {
+        height: 640px;
+        background-color: #f1f4fc;
+        width: 100%;
+        display: flex;
+        .specialists__title {
+            color: #60759d;
+            font-size: 2.25em
+        }
+        .specialists__list {
+            padding-left: 17px;
+        }
+        .specialists__list>li {
+            list-style-type: none;
+            margin-bottom: 14px;
+            line-height: 26px;
+            font-size: 1.01em;
+            color: #60759d;
+            max-width: 570px;
+            &:before {
+                content: "•";
+                color: #16afe0;
+                margin-left: -15px;
+                position: absolute;
+            }
         }
     }
+    .specialists__info {
+        margin: 60px 0 0 -31px;
+    }
+    .specialists__image {
+        position: relative;
+        top: -108px;
+        left: -67px;
+        width: 970px;
+        height: 686px;
+    }
 }
-.specialists__info {
-    margin: 60px 0 0 -31px;
-}
-
-.specialists__image{
-    position: relative;
-    top: -108px;
-    left: -67px;
-    width: 970px;
-    height: 686px;
-
-}
-
-
-
-
