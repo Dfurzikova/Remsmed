@@ -1,7 +1,7 @@
 Верстка лендинга
 React + SCSS
 
-(Посмотреть можно тут) [https://dfurzikova.github.io/Remsmed/build/]
+[production build посмотреть можно тут](https://dfurzikova.github.io/Remsmed/build/)
 
 # Для установки потребуется:
 ```sh
